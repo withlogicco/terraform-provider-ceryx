@@ -1,0 +1,10 @@
+{
+  "go.testExplorer.enable": true,
+  "go.testExplorer.showOutput": true,
+  "go.testEnvVars": {
+    "TF_ACC": "1",
+    "TF_ACC_PROVIDER_NAMESPACE": "withlogicco"
+  },
+  "go.testFlags": ["-count=1"],
+  "go.testTimeout": "2m"
+}
